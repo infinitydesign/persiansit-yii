@@ -17,12 +17,12 @@ class Persiansit extends Component {
 
     /**
      * Convert all persian and arabic digits in a string to english digits
-     * @param string $string
+     * @param string $number
      * @return string
      */
-    public function toEnDigit(string $string) : string {
+    public function toEnDigit(string $number) : string {
         $num = range(0, 9);
-        $convertPersianDigitsToEnglish = str_replace(self::PERSIAN_DIGITS, $num, $string);
+        $convertPersianDigitsToEnglish = str_replace(self::PERSIAN_DIGITS, $num, $number);
         $convertArabicDigitsToEnglish = str_replace(self::ARABIC_DIGITS, $num, $convertPersianDigitsToEnglish);
 
         return $convertArabicDigitsToEnglish;
@@ -30,14 +30,23 @@ class Persiansit extends Component {
 
     /**
      * Convert all digits in a string to persian digits
-     * @param string $string
+     * @param string $number
      * @return string
      */
-    public function toPrDigit(string $string) : string {
+    public function toPrDigit(string $number) : string {
         $num = range(0, 9);
-        $convertEnglishDigitsToPersian = str_replace($num, self::PERSIAN_DIGITS, $string);
+        $convertEnglishDigitsToPersian = str_replace($num, self::PERSIAN_DIGITS, $number);
 
         return $convertEnglishDigitsToPersian;
+    }
+
+    /**
+     * Convert all digits in a string to persian digits and return number in a number format (separated with ",")
+     * @param string $number
+     * @return string
+     */
+    public function ToPrDigitWithNumberFormat(string $number) : string {
+        return $this->toPrDigit(number_format($number));
     }
 
     /**

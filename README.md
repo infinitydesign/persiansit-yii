@@ -33,6 +33,13 @@ $persiansit = Yii::$app->persiansit;
 $persiansit->toEnDigit($number);
 ```
 
+To convert all english digits in a string to persian digits and get in number format (separated with ",") use:
+```php
+/** @var $persiansit madensit\persiansit\Persiansit */
+$persiansit = Yii::$app->persiansit;
+$persiansit->ToPrDigitWithNumberFormat($number);
+```
+
 To check if a mobile number is in international format (start with +98 or 98) use:
 ```php
 /** @var $persiansit madensit\persiansit\Persiansit */
