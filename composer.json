@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "madensit\\persiansit-yii\\": ""
+            "infinitydesign\\persiansit-yii\\": ""
         }
     }
 }
