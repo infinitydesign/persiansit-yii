@@ -2,6 +2,14 @@
 namespace madensit\persiansit;
 use yii\base\Component;
 
+/**
+ * Persiansit is a class that helps you to use persian digits and mobile formats
+ * To find out more please check https://github.com/madensit/persiansit-yii
+ * @author madensit
+ *
+ * Class Persiansit
+ * @package madensit\persiansit
+ */
 class Persiansit extends Component {
 
     const PERSIAN_DIGITS = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
@@ -47,7 +55,7 @@ class Persiansit extends Component {
      * @param bool $havePlus If set true, the return mobile number format have + at beginning of it
      * @return string
      */
-    public function toInternationalMobileNumber(string $mobile, bool $havePlus = false){
+    public function toInternationalMobileNumber(string $mobile, bool $havePlus = false) : string {
         $plusSign = $havePlus? "+" : "";
         if (!$this->isInternationalMobileNumber($mobile)) {
             if (preg_match('/^09[0-9]{9}/', $mobile)) {
