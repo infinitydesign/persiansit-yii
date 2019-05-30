@@ -4,6 +4,7 @@ use yii\base\Component;
 
 /**
  * Persiansit is a class that helps you to use persian digits and mobile formats
+ * Yii2 persian number helper
  * To find out more please check https://github.com/madensit/persiansit-yii
  * @author madensit
  *

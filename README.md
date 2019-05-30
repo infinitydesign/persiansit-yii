@@ -1,5 +1,6 @@
 # persiansit
 A Persian Yii2 component to help work with Persian digits and mobile numbers.
+Yii2 persian number helper
 
 #### Install from composer
 ```$xslt
