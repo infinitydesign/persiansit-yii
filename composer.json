@@ -1,6 +1,6 @@
 {
     "name": "madensit/persiansit-yii",
-    "description": "A Persian Yii2 component to help work with Persian digits, mobile numbers and other needed data.",
+    "description": "A Persian Yii2 component to help work with Persian digits and mobile numbers.",
     "type": "library",
     "minimum-stability": "stable",
     "require": {

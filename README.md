@@ -1,5 +1,5 @@
 # persiansit
-A Persian PHP library to help work with Persian digits, mobile numbers and other needed data.
+A Persian Yii2 component to help work with Persian digits and mobile numbers.
 
 #### Install from composer
 ```$xslt
