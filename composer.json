@@ -1,5 +1,5 @@
 {
-    "name": "madensit/persiansit-yii",
+    "name": "infinitydesign/persiansit-yii",
     "description": "A Persian Yii2 component to help work with Persian digits and mobile numbers.",
     "type": "library",
     "minimum-stability": "stable",
