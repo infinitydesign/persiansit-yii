@@ -33,7 +33,7 @@ class Persiansit extends Component {
      * @param string $string
      * @return string
      */
-    public function toFaDigit(string $string) : string {
+    public function toPrDigit(string $string) : string {
         $num = range(0, 9);
         $convertEnglishDigitsToPersian = str_replace($num, self::PERSIAN_DIGITS, $string);
 
