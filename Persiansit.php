@@ -1,6 +1,7 @@
 <?php
 namespace madensit\persiansit;
 use yii\base\Component;
+
 class Persiansit extends Component {
 
     const PERSIAN_DIGITS = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
