@@ -2,7 +2,9 @@
     "name": "madensit/persiansit-yii",
     "description": "A Persian Yii2 component to help work with Persian digits, mobile numbers and other needed data.",
     "type": "library",
+    "minimum-stability": "stable",
     "require": {
+        "php": ">=7.2",
         "yiisoft/yii2": "^2.0"
     },
     "license": "MIT",
