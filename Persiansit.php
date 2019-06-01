@@ -1,5 +1,5 @@
 <?php
-namespace infinitydesign\persiansit;
+namespace infinitydesign\persiansitYii;
 use yii\base\Component;
 
 /**
