@@ -1,15 +1,15 @@
 <?php
-namespace infinitydesign\persiansitYii;
+namespace infinitydesign\persiansitYii\Persiansit;
 use yii\base\Component;
 
 /**
  * Persiansit is a class that helps you to use persian digits and mobile formats
  * Yii2 persian number helper
- * To find out more please check https://github.com/madensit/persiansit-yii
+ * To find out more please check https://github.com/infinitydesign/persiansit-yii
  * @author madensit
  *
  * Class Persiansit
- * @package madensit\persiansit
+ * @package infinitydesign\persiansit
  */
 class Persiansit extends Component {
 
