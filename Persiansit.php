@@ -16,6 +16,11 @@ class Persiansit extends Component {
     const PERSIAN_DIGITS = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
     const ARABIC_DIGITS = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
 
+    public function init()
+    {
+        parent::init();
+    }
+
     /**
      * Convert all persian and arabic digits in a string to english digits
      * @param string $number
