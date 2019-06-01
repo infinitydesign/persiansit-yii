@@ -52,8 +52,8 @@ class Persiansit extends Component {
      * @param string $number
      * @return string
      */
-    public function ToPrDigitWithNumberFormat(string $number) : string {
-        return $this->toPrDigit(number_format((float)$number));
+    public function toPrDigitWithNumberFormat(string $number) : string {
+        return $this->toPrDigit((string)number_format((float)$number));
     }
 
     /**

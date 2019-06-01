@@ -40,7 +40,7 @@ To convert all english digits in a string to persian digits and get in number fo
 ```php
 /** @var $persiansit infinitydesign\persiansitYii\Persiansit */
 $persiansit = Yii::$app->persiansit;
-$persiansit->ToPrDigitWithNumberFormat($number);
+$persiansit->toPrDigitWithNumberFormat($number);
 ```
 
 To check if a mobile number is in international format (start with +98 or 98) use:
