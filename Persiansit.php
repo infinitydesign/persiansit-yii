@@ -53,7 +53,7 @@ class Persiansit extends Component {
      * @return string
      */
     public function ToPrDigitWithNumberFormat(string $number) : string {
-        return $this->toPrDigit(number_format($number));
+        return $this->toPrDigit(number_format((float)$number));
     }
 
     /**
