@@ -1,5 +1,5 @@
 <?php
-namespace infinitydesign\persiansitYii\Persiansit;
+namespace infinitydesign\persiansitYii;
 
 use yii\base\Component;
 
@@ -10,7 +10,7 @@ use yii\base\Component;
  * @author madensit
  *
  * Class Persiansit
- * @package infinitydesign\persiansit
+ * @package infinitydesign\persiansitYii
  */
 class Persiansit extends Component {
 
